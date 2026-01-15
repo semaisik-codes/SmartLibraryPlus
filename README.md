@@ -15,8 +15,8 @@ Tarih takibi (Alış ve İade tarihleri).
 Raporlama: Tüm kitapları, öğrencileri ve aktif/pasif ödünç listesini görüntüleme.
 
 --Kullanılan Teknolojiler--
-Dil: Java (JDK 17+)
-ORM Framework:Hibernate Core 6.4.1
-Veritabanı: SQLite
-Build Tool: Maven
-IDE: IntelliJ IDEA
+**Dil:** Java (JDK 24)
+**ORM Framework:** Hibernate Core 6.4.1
+**Veritabanı:** SQLite
+**Build Tool:** Maven
+**IDE:** IntelliJ IDEA
