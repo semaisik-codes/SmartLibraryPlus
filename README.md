@@ -1,4 +1,4 @@
-# SmartLibrary2 ORM Tabanlı Kütüphane Sistemi
+# SmartLibraryPlus ORM Tabanlı Kütüphane Sistemi
 
 Bu proje, Nesneye Yönelik Programlama (OOP) prensiplerine uygun olarak, veri tabanı işlemleri için Hibernate ORM teknolojisi kullanılarak geliştirilmiş bir konsol uygulamasıdır. Proje, klasik JDBC yöntemleri yerine Hibernate Framework kullanılarak geliştirilmiş olup, tüm SQL işlemleri nesneler üzerinden yönetilmektedir.
 
