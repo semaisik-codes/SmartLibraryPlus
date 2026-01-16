@@ -121,7 +121,7 @@ public class Main {
         System.out.print("İade edilecek Kitap ID: ");
         Long bId = Long.parseLong(scanner.nextLine());
 
-        // Bu kitabın aktif loan kaydını bulmamız lazım
+        // Bu kitabın aktif loan kaydını bul
         Loan loan = loanDao.getActiveLoanByBookId(bId);
 
         if (loan != null) {

@@ -40,8 +40,7 @@ public class BookDao {
     }
 
     public List<Book> getAll() {
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
-            // HQL (Hibernate Query Language) kullanıyoruz, SQL değil!
+        try (Session session = HibernateUtil.getSessionFactory().openSession())
             return session.createQuery("from Book", Book.class).list();
         }
     }

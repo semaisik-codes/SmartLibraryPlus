@@ -13,8 +13,6 @@ public class Book {
     private String title;
     private String author;
     private int year;
-
-    // Durumu String yerine Enum olarak tutuyoruz (Veritabanına String yazacak)
     @Enumerated(EnumType.STRING)
     private Status status;
 
