@@ -40,7 +40,7 @@ public class BookDao {
     }
 
     public List<Book> getAll() {
-        try (Session session = HibernateUtil.getSessionFactory().openSession())
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             return session.createQuery("from Book", Book.class).list();
         }
     }
